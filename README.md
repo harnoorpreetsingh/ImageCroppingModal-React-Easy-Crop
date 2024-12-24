@@ -68,7 +68,7 @@ export default ParentComponent;
 
 ### Key Changes:
 
-- **Added Installation Instructions**: The command to install `react-easy-crop` has been added: `npm install react-easy-crop`.
-- **Code**: The example code  uses `react-easy-crop` for the cropping functionality.
+- **Added Installation Instructions**: The command to install `react-easy-crop` has been added.
+- **Code**: Again, The example code  uses `react-easy-crop` for the cropping functionality.
 
 This should now be ready for a smooth setup and usage with `react-easy-crop`.
