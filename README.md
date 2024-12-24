@@ -9,6 +9,15 @@ This repository contains a React component for an image modal that allows users 
 - **Rotate Image**: Users can rotate the image as needed.
 - **Save Image**: After performing the desired operations, the cropped image URL can be saved or returned to the parent component.
 - **Modal Control**: The modal can be opened or closed based on the state in the parent component.
+- **Blob URL for Upload**: Returns a Blob URL for the uploaded image, which can be used for saving or further processing.
+- **Base64 URL for Preview**: The image preview is displayed using the Base64 encoded URL for immediate previewing.
+
+- **Install Required Dependencies**:
+   Install `react-easy-crop` for cropping functionality.
+
+   ```bash
+   npm install react-easy-crop
+   ```
 
 ## Components
 
@@ -59,7 +68,7 @@ export default ParentComponent;
 
 ### Key Changes:
 
-- **Added Installation Instructions**: The command to install `react-easy-crop` has been added: `npm install react-easy-crop`.
-- **Code**: The example code  uses `react-easy-crop` for the cropping functionality.
+- **Added Installation Instructions**: The command to install `react-easy-crop` has been added.
+- **Code**: Again, The example code  uses `react-easy-crop` for the cropping functionality.
 
 This should now be ready for a smooth setup and usage with `react-easy-crop`.
