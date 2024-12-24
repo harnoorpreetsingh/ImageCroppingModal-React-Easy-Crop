@@ -193,6 +193,12 @@ export default EImageCropper;
 
 // In case of returning a Blob URL for uploads & previewing base64 URL for preview
 
+// Assuming 'croppedBlob' is your Blob containing the cropped image
+// const imageUrl = URL.createObjectURL(croppedBlob);
+
+// Now you can use the imageUrl to display the image in an <img> tag
+<img src={imageUrl} alt="Cropped Image" style={{ width: '100%', height: 'auto' }} />
+
 // *****************************************************************************************************
 
 // changes made in PARENT : 
